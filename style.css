@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    /* border: 1px solid red; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navigation start */
+
+.navigation{
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+.navigation img{
+    width: 100px;
+    margin-bottom: 35px;
+}
+.navigation ul{
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+.navigation ul li{
+    list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Bodoni Moda", serif;
+}
+.menu{
+    display: none;
+}
+/* banner start */
+
+.banner{
+    width: 100%;
+    background-color: #fff5f5;
+}
+.banner .inner{
+    /* background-color: blue; */
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .text-banner{
+    width: 40%;
+}
+.banner .text-banner h1{
+    font-size: 50px;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 500;
+    color: rgb(69, 69, 69);
+    margin-bottom: 30px;
+}
+.banner .text-banner p{
+    /* background-color: aquamarine; */
+    font-size: 16px;
+    color: rgb(69, 69, 69);
+}
+.banner button{
+    margin-top: 30px;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(69, 69, 69);
+    border: none;
+    color: white;
+}
+.banner .img-banner{
+    width: 50%;
+}
+.banner .img-banner img{
+    width: 100%;
+    display: block;
+}
+
+/* feature section */
+
+.featured{
+    /* background-color: aquamarine; */
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-block: 60px;
+}
+.featured h1{
+    font-family: "Bodoni Moda", serif; 
+    font-size: 35px;
+    color: rgb(69, 69, 69);
+}
+.featured img{
+    width: 15%;
+    object-fit: contain;
+}
+
+/* about section */
+
+.about{
+    width: 100%;
+    background-color: #fff5f5;
+    padding-block: 60px;
+}
+.about .text-about{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about .text-about h1{
+    font-family: "Bodoni Moda", serif; 
+    color: rgb(69, 69, 69);
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.about .text-about p{
+    font-size: 16px;
+    color: rgb(69, 69, 69);
+}
+
+/* service section */
+.service{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.service .img-service{
+    width: 50%;
+}
+.service .img-service img{
+    width: 100%;
+    display: block;
+}
+.service .text-service{
+    width: 40%;
+}
+.service .text-service h1{
+    font-family: "Bodoni Moda", serif; 
+    font-size: 48px;
+    color: rgb(69, 69, 69);
+    margin-bottom: 20px;
+}
+.service .text-service p{
+    font-size: 16px;
+    color: rgb(69, 69, 69);
+    margin-bottom: 60px;
+}
+.service button{
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    border: none;
+}
+
+/* ready section */
+
+.ready{
+    width: 100%;
+    background-color: #fff5f5;
+    padding-block: 60px;
+}
+.ready .inner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.ready h1{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-family: "Bodoni Moda", serif; 
+    color: rgb(69, 69, 69);
+    font-weight: 500;
+    font-size: 40px;
+}
+.ready .text-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ready .text-ready{
+    /* border: 1px solid red; */
+    width: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding-block: 25px;
+    padding-inline: 27px;
+    color: rgb(69, 69, 69);
+}
+.ready .text-ready h3{
+    font-family: "Bodoni Moda", serif;
+}
+.ready .text-ready p{
+    font-size: 15px;
+    margin-top: 10px;    
+}
+
+/* blog section */
+
+.blog{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog .text-blog{
+    width: 40%;
+}
+.blog .text-blog h1{
+    font-family: "Bodoni Moda", serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(69, 69, 69);
+    margin-bottom: 30px;
+}
+.blog .text-blog p{
+    font-size: 15px;
+    color: rgb(69, 69, 69);
+    margin-bottom: 70px;
+}
+.blog button{
+    width: 120px;
+    padding: 10px;
+    background-color: rgb(69, 69, 69);
+    border: none;
+    color: white;  
+}
+.blog .img-blog{
+    width: 50%;
+}
+.blog .img-blog img{
+    width: 100%;
+    display: block;
+}
+
+/* author section */
+
+.author{
+    width: 100%;
+    background-color: #fff5f5;
+    padding-block: 50px 80px;
+}
+.author .inner{
+    /* border: 1px solid red; */
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.author img{
+    width: 70%;
+}
+.author .text-author{
+    width: 60%;
+    color: rgb(69, 69, 69);
+}
+.author .text-author p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.footer{
+    max-width: 850px;
+    margin: 0 auto;
+    padding-block: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer img{
+    width: 24%;
+    object-fit: contain;
+}
+.icon{
+    text-align: center;
+    word-spacing: 15px;
+    font-size: 18px;
+}
+.text{
+    text-align: center;
+    padding-block: 30px;    
+}
+@media screen and (max-width:768px){
+    .navigation img{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .menu{
+        position: absolute;
+        top: 50px;
+        right: 25px;
+        display: block;
+        font-size: 25px;
+    }
+    .banner .inner{
+        max-width: 500px;
+    }   
+    .banner .text-banner{
+        width: 100%;
+        margin-bottom: 40px;
+    }   
+    .banner .img-banner{
+        width: 100%;
+    }
+    .featured{
+        flex-direction: column;
+        align-items: center;
+    }
+    .featured img{
+        margin-top: 35px;
+        width: 150px;
+    }
+    .about .text-about{
+        max-width: 500px;
+        
+    }
+    .service{
+        max-width: 500px;
+        margin-bottom: 40px;
+    }
+    .service .img-service{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .service .text-service{
+        width: 100%;
+    }
+    .blog{
+        max-width: 500px;       
+    }
+    .blog .text-blog{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .blog .img-blog{
+        width: 100%;
+    }
+    .author .inner{
+        max-width: 450px;
+    }
+    .author .text-author{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer img{
+        margin-top: 20px;
+        width: 250px;
+        object-fit: contain;
+    }
+}
+@media screen and (max-width:425px){
+    .banner .inner{
+        max-width: 330px;
+    }
+    .about .text-about{
+        max-width: 330px;
+    }
+    .service{
+        max-width: 330px;
+    }
+    .blog{
+        max-width: 330px;
+    }
+    .author .img-author{
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .author .text-author{
+        max-width: 330px;
+        margin: 0 auto;
+    }
+}
